@@ -1,0 +1,6 @@
+name: Cutscenes
+version: '${project.version}'
+main: dev.nolz.cutscenes.Cutscenes
+api-version: 1.17
+authors: [ NolzCoding ]
+website: https://nolz.dev
