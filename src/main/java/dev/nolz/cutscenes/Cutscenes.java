@@ -1,5 +1,6 @@
 package dev.nolz.cutscenes;
 
+import dev.nolz.cutscenes.commands.CutsceneCommand;
 import dev.nolz.cutscenes.config.ConfigManager;
 import org.bukkit.Bukkit;
 import org.bukkit.plugin.java.JavaPlugin;
@@ -14,6 +15,8 @@ public final class Cutscenes extends JavaPlugin {
 
     @Override
     public void onEnable() {
+
+        this.getCommand("cutscenes").setExecutor(new CutsceneCommand(this));
 
         try {
             configManager = new ConfigManager(this);

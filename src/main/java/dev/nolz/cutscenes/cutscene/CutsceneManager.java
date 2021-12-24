@@ -7,7 +7,6 @@ import org.bukkit.Bukkit;
 public class CutsceneManager {
 
     public CutsceneManager(Cutscenes cutscenes){
-        Bukkit.getScheduler().runTask(cutscenes, new CutsceneRunnable(new CutsceneSession()))
     }
 
 }

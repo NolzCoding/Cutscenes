@@ -1,6 +1,10 @@
 name: Cutscenes
 version: '${project.version}'
 main: dev.nolz.cutscenes.Cutscenes
-api-version: 1.17
+api-version: 1.13
 authors: [ NolzCoding ]
 website: https://nolz.dev
+commands:
+  cutscenes:
+    usage: /<command> args
+    description: main command for cutscenes
